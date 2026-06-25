@@ -13,6 +13,7 @@ To play this game, you will need the **`.apk`** and **`.obb`** files for **versi
 
 From them, you need:
 * **`lib/arm64-v8a/libfox.so`** — the game engine.
+* The **entire `assets/` folder** from your `.apk` (containing the `.mp3` music, `.ogg` sound effects, and `.mp4` cutscenes).
 * **`main.300...obb`** (usually named `main.30010.com.sega.sonic4ep2.obb` or similar depending on the version/store) — renamed to **`data.obb`**.
 
 #### Setup Instructions:
@@ -20,8 +21,9 @@ From them, you need:
 1. Create a folder called `s4ep2` inside the `switch` folder on your SD card (i.e. `sdmc:/switch/s4ep2/`).
 2. Create an `assets` folder inside the `s4ep2` folder (i.e. `sdmc:/switch/s4ep2/assets/`).
 3. Extract **`lib/arm64-v8a/libfox.so`** from your `.apk` and copy it to `sdmc:/switch/s4ep2/libfox.so`.
-4. Copy the **`.obb`** file to `sdmc:/switch/s4ep2/assets/` and rename it to **`data.obb`** (so its path is `sdmc:/switch/s4ep2/assets/data.obb`).
-5. Copy **`s4ep2_nx.nro`** into `sdmc:/switch/s4ep2/`.
+4. Copy the **contents of the `assets/` folder** from your `.apk` (all the `.mp3`, `.ogg`, and `.mp4` files) into `sdmc:/switch/s4ep2/assets/`.
+5. Copy the **`.obb`** file to `sdmc:/switch/s4ep2/assets/` and rename it to **`data.obb`** (so its path is `sdmc:/switch/s4ep2/assets/data.obb`).
+6. Copy **`s4ep2_nx.nro`** into `sdmc:/switch/s4ep2/`.
 
 ### Notes
 
