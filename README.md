@@ -48,7 +48,7 @@ Run `make` to compile.
 
 ### Credits
 
-* [fgsfds](https://github.com/fgsfdsfgs) for [max_nx](https://github.com/fgsfdsfgs/max_nx) and [ct_nx](https://github.com/fgsfdsfgs/ct_nx), which this loader is heavily based on.
+* [fgsfdsfgs](https://github.com/fgsfdsfgs) for [max_nx](https://github.com/fgsfdsfgs/max_nx) and [NaGaa95](https://github.com/NaGaa95) for [ct_nx](https://github.com/NaGaa95/ct_nx), which this loader is heavily based on.
 * [TheOfficialFloW](https://github.com/TheOfficialFloW) for the original Vita ports that pioneered the Android `.so` loading technique.
 * David Reid for [dr_mp3](https://github.com/mackron/dr_libs).
 * Sean Barrett for [stb_vorbis](https://github.com/nothings/stb).
